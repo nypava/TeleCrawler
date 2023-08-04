@@ -6,6 +6,9 @@ with open("helpers/text.json","r",encoding="utf-8") as text_data:
     text_data = json.load(text_data)
 
 def BotExist() -> bool|str:
+    if not os.path.exists('cache'):
+        os.makedirs('cache')
+        
     try:
         with open("cache/bot.txt", "r", encoding="utf-8") as file_data:
             bot_token = file_data.read()
