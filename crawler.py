@@ -153,9 +153,6 @@ class Main:
             if saved == True:
                 saved_notify_text = text_data["saved_nofiy"].format(msg_id)
                 print(saved_notify_text)
-          
-        clear()
-        self.MainChoice()
 
     def Downloader(self):
         self.CurrentChoose = "self.Downloader()"
@@ -179,7 +176,10 @@ class Main:
         for msg_id in range(int(intial_mid), int(final_mid) + 1):
             message = self.bot.get_message(intial_cid, msg_id)
             self.bot.download(message)
-
+            
+        download_notify_text = text_data["download_notify"]
+        print(download_notify_text)
+        
     def run(self):
         self.InternetCheck()
 
