@@ -1,0 +1,15 @@
+{
+    "internet_check":"Checking Internet Please wait.",
+    "internet_fail":"Please check your internet!",
+    "bot_new_input":"Give me Bot Token (from @BotFather) >>> ",
+    "bot_old_input":"Do you want to continue with the previous token? (Y/N) \n>>> ",
+    "bot_fail":"Error Occured: {}",
+    "main_prompt":"Choose 1, 2 or 3 \n[1] Crawl - Retrieve messages from telegram and saved them into result.json file.\n[2] Download - Downlaod files from telegram including restricted Downlaod.\n[3] Exit - Exit from this program. \n\n>>> ",
+    "main_fail":"Please Choose 1,2 or 3",
+    "intial_msg":"Give me the Intial url >>> ",
+    "invalid_url":"Please send the telegram message url in the form of this - https://CHANNEL_USERNAME/MESSAGE_ID ",
+    "final_msg":"Give me the Final url >>> ",
+    "channel_fail":"The Intial and Final message should be in the same channel!",
+    "saved_nofiy":"Messge ID [{}] - Saved to result.json.",
+    "save_log":"------------------------LOG-----------------------\n"
+}
