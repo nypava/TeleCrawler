@@ -1,6 +1,6 @@
 ![](image/banner.png)
 # **TeleCrawler**
-**TeleCrawler** is TUI app that lets you retrieve and save telegram messages, including downloading any files including restricted files using **Bot token** and **Message URL**.
+**TeleCrawler** is TUI app that lets you retrieve telegram messages and download any files including restricted files using **Bot token** and **Message URL**.
 
 ## **Installation**
 - Clone the repository.
