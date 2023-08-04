@@ -180,9 +180,6 @@ class Main:
             message = self.bot.get_message(intial_cid, msg_id)
             self.bot.download(message)
 
-        clear()
-        self.MainChoice()
-
     def run(self):
         self.InternetCheck()
 
