@@ -28,4 +28,4 @@ python3 crawler.py
 ```
 - When prompted to give the bot token, provide the Telegram bot token obtained from [Bot Father](https://t.me/botfather).
 - When prompted to provide the Initial and Final message URL, use a Telegram link in the following format: https://t.me/channel_username/message_id.
-- Once done, if you choose to download the file or crawl the messages, the progress will be shown by printing it.
+- Once done, the progress will be shown.
