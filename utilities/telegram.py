@@ -1,4 +1,5 @@
 from pyrogram import Client
+from utilities.terminal import clear
 import os
 import json
 import time
@@ -62,6 +63,7 @@ class Telegram:
     def download(self, message:object):
         def prog_func(current, total): 
             print(f'Message ID [{message.id}] - {float(current) / 1000.0}/{float(total) / 1000.0} KB')
+            clear()
         message.download(progress=prog_func, block=True, progress_args=())
     
     def get_message(self, channel_id:str, message_id:int):
