@@ -11,5 +11,6 @@
     "final_msg":"Give me the Final url >>> ",
     "channel_fail":"The Intial and Final message should be in the same channel!",
     "saved_nofiy":"Messge ID [{}] - Saved to result.json.",
-    "save_log":"------------------------LOG-----------------------\n"
+    "save_log":"------------------------LOG-----------------------\n",
+    "download_notify":"Videos are saved on download folder"
 }
