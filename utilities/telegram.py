@@ -41,7 +41,7 @@ class Telegram:
         self.bot_token = bot_token
     
     def start(self):
-        self.bot = Client(name=self.bot_token, bot_token=self.bot_token, api_id=12704312, api_hash=b5840c5334ac3694b2af0601db6d71f7, workdir="cache/").start()
+        self.bot = Client(name=self.bot_token, bot_token=self.bot_token, api_id=12704312, api_hash="b5840c5334ac3694b2af0601db6d71f7", workdir="cache/").start()
 
     def save(self, message:object):
         if message.text:
