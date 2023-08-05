@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 
 ## **Dependencies**
-* [pyrogram]()
+* [pyrogram](https://pyrogram.org)
 
 ## **Usage**
 Once you download files and install requirements follow this steps.
